@@ -8,13 +8,13 @@
 Summary:	XML::TreeBuilder - Parser that builds a tree of XML::Element objects
 Summary(pl.UTF-8):	XML::TreeBuilder - analizator tworzący drzewo obiektów XML::Element
 Name:		perl-XML-TreeBuilder
-Version:	5.0
+Version:	5.2
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/XML/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	5549d05bb87b862c31b64d9d21ef34a0
+# Source0-md5:	3bbce5667ef6b6914231054e50c56001
 URL:		http://search.cpan.org/dist/XML-TreeBuilder/
 BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
@@ -27,12 +27,12 @@ BuildRequires:	perl-Test-Exception
 BuildRequires:	perl-Test-Perl-Critic
 BuildRequires:	perl-Test-Pod-Coverage
 BuildRequires:	perl-Test-Simple
-BuildRequires:	perl-XML-Catalog >= 1.0.0
+BuildRequires:	perl-XML-Catalog >= 1.0.1
 BuildRequires:	perl-XML-Parser
 %endif
 Requires:	perl-HTML-Tagset >= 3.02
 Requires:	perl-HTML-Tree >= 4.1
-Requires:	perl-XML-Catalog >= 1.0.0
+Requires:	perl-XML-Catalog >= 1.0.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
