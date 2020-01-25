@@ -4,7 +4,6 @@
 #
 %define		pdir	XML
 %define		pnam	TreeBuilder
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::TreeBuilder - Parser that builds a tree of XML::Element objects
 Summary(pl.UTF-8):	XML::TreeBuilder - analizator tworzący drzewo obiektów XML::Element
 Name:		perl-XML-TreeBuilder
